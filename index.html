@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://alipay.218218.com/?jjj -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>支付宝最高99元超级红包等你来抢！</title>
+	<link rel="icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body class="Small">
+	<div style="display: none;">
+		<a href="http://www.cnzz.com/stat/website.php?web_id=1272097266" target="_blank" title="站长统计">站长统计</a></div>
+
+	<div class="bg">
+		<div class="warp">
+			<div class="tit">
+				
+			</div>
+			<!--红包-->
+			<div class="redbao">
+				
+				<div class="people">
+					
+				</div>
+				<div class="people2">
+					
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer">
+			<div class="zfb">
+				<p> 活动规则：活动期间每人每天限领1次红包，在门店付款时自动立减红包金额（活动详情请扫上面二维码查看）</p>
+				<img src="./img/zfb.png">
+			</div>
+		</div>
+	</div>
+	<script src="./jquery-1.8.3.min.js"></script>
+	<script>
+			//屏幕大小屏以及高度处理
+			var h_height = $(window).height();
+			var w_width = $(window).width();
+			if(h_height <= 768 || w_width <= 1366) {
+				$('body').addClass("Small");
+
+			}
+			window.onresize=function(){
+				//console.log("111");
+				//屏幕大小屏以及高度处理
+				var h_height = $(window).height();
+				var w_width = $(window).width();
+				//console.log("h_height"+h_height);
+				//console.log("w_width"+w_width);
+				if(h_height <= 768 || w_width <= 1366) {
+					$('body').addClass("Small");
+
+				}else{
+					$('body').removeClass("Small");
+					
+				}
+			}
+		</script>
+		
+
+		
+	</body>
+	</html>
